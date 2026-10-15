@@ -1,0 +1,41 @@
+# Shopping Bill Generator
+
+## Description
+
+A simple Python program that accepts product names, quantities, and prices and generates a formatted shopping bill.
+
+## Objective
+
+To practice lists, dictionaries, loops, functions, input validation, and basic calculations.
+
+##
+
+## Sample Output
+
+```text
+===== SHOPPING BILL GENERATOR =====
+
+Enter product name (or 'done' to finish): Notebook
+Enter quantity: 2
+Enter price per item: 100
+
+Enter product name (or 'done' to finish): Pen
+Enter quantity: 5
+Enter price per item: 20
+
+Enter product name (or 'done' to finish): done
+
+========== SHOPPING BILL ==========
+Product        Qty   Price     Total
+-----------------------------------
+Notebook       2     100.00    200.00
+Pen            5     20.00     100.00
+-----------------------------------
+Subtotal:         Rs. 300.00
+Discount:         Rs. 0.00
+Tax (5%):         Rs. 15.00
+Final Amount:     Rs. 315.00
+===================================
+```
+
+##
